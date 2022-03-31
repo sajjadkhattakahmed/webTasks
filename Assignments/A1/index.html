@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        a {
+            text-decoration: none;
+            color: wheat;
+        }
+        li{
+            margin: 15px;
+        }
+        #nav{
+            display: flex;
+            flex-wrap: wrap;
+            color: white;
+            background-color: #333;
+            padding: 5px;
+            overflow: hidden;
+        }
+        #nav p{
+            padding: 15px;
+        }
+        *{
+            margin: 0px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        img{
+            width: 300px;
+            height: 250px;
+        }
+        footer{
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0px;
+            color: wheat;
+        }
+        #cover{
+            text-align: center;
+        }
+        #coverimg{
+            width: 100%;
+            height: auto;
+            float: left;
+        }
+        body{
+            background-color: #0e0e0e;
+        }
+        #cover h2{
+            color: wheat;
+        }
+        #destinationlist{
+            margin: 30px 50px;
+            align-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .destinationcard{
+            background-color: #333;
+            width: 300px;
+            margin: 10px 30px;
+            padding: 10px;
+            border-radius: 25px;
+            border: 2px solid wheat;
+            color: white;
+        }
+        .destinationcard img{
+            width: 300px;
+            height: 300px;
+            margin: 10px 0px;
+            border-radius: 25px;
+        }
+        .destinationcard:hover {
+            transform: scale(1.5, 1.5);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header id="nav">
+        <p>TRAVEL AGENCY</p>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Hotel</a></li>
+            <li><a href="">Destinations</a></li>
+        </ul>
+    </header>
+    <div id="cover">
+        <img id="coverimg" src="cover.png">
+        <br><br>
+        <h2><strong>TRAVEL DESTINATIONS</strong><br><i>Where you join the World</i></h2>
+    </div>
+    <br>
+    <br>
+    <div id="destinationlist">
+        <div class="destinationcard">
+            <img src="https://cdn.theculturetrip.com/wp-content/uploads/2018/07/shutterstock_697606678.jpg">
+            <b>Pakistan:</b><br>
+            <p>Land of Pure. Attracts many.</p>
+        </div>
+        <div class="destinationcard">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFMPoc2jSDeOK__49DpDtgfiSCIaxbZ1YTCA&usqp=CAU">
+            <b>Paris:</b><br>
+            <p>Capital of France. Attracts many.</p>
+        </div>
+        <div class="destinationcard">
+            <img src="https://www.worldatlas.com/r/w960-q80/upload/3d/bd/0a/shutterstock-583939735.jpg">
+            <b>London:</b><br>
+            <p>Capital of London. Attracts many.</p>
+        </div>
+        <div class="destinationcard">
+            <img src="https://www.worldatlas.com/r/w960-q80/upload/5c/36/ae/shutterstock-1014644104.jpg">
+            <b>Bangkok:</b><br>
+            <p>Capital of Thailand. Attracts many.</p>
+        </div>
+        <div class="destinationcard">
+            <img src="https://www.worldatlas.com/r/w960-q80/upload/7a/93/ae/shutterstock-1174014040.jpg">
+            <b>Berlin:</b><br>
+            <p>Capital of Germany. Attracts many.</p>
+        </div>
+        <div class="destinationcard">
+            <img src="https://www.worldatlas.com/r/w960-q80/upload/b2/a2/23/shutterstock-720715930.jpg">
+            <b>Mexico City:</b><br>
+            <p>Capital of Mexico. Attracts many.</p>
+        </div>
+        <div class="destinationcard">
+            <img src="https://www.worldatlas.com/r/w960-q80/upload/ae/7e/c4/shutterstock-557889964.jpg">
+            <b>Istanbul:</b><br>
+            <p>Capital of Turkey. Attracts many.</p>
+        </div>
+        <div class="destinationcard">
+            <img src="https://www.worldatlas.com/r/w960-q80/upload/72/63/d1/shutterstock-433413835.jpg">
+            <b>Rome:</b><br>
+            <p>Capital of Italy. Attracts many.</p>
+        </div>
+        <div class="destinationcard">
+            <img src="https://www.worldatlas.com/r/w960-q80/upload/09/44/59/shutterstock-275490581.jpg">
+            <b>Great Wall of China:</b><br>
+            <p>Great Wonder of China. Attracts many.</p>
+        </div>
+        <div class="destinationcard">
+            <img src="https://www.worldatlas.com/r/w960-q80/upload/9c/14/d4/shutterstock-712575202.jpg">
+            <b>Alhambra:</b><br>
+            <p>City of Spain. Attracts many.</p>
+        </div>
+        
+        
+    </div>
+    
+    <footer>
+        <hr>
+        <br>
+        <center><strong>TRAVEL AGENCY LIMITED</strong></center>
+        <br>
+        <hr>
+    </footer>
+
+</body>
+</html>

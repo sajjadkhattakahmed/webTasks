@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Reservation Form</title>
+    
+</head>
+<body>
+    <header id="nav">
+        <p>TRAVEL AGENCY</p>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </header>
+    <center>
+        <h2>Travel Reservation Form</h2>
+        <h4>* means mandatory</h4>
+        <form>
+            <label>Full name*:</label>
+            <input type="text" placeholder="Full Name" name="name">
+            <br><br>
+            <label>Email Address*:</label>
+            <input type="email" placeholder="Email Address" name="email">
+            <br><br>
+            <label>Select Tour Package*:</label>
+            <select name="package">
+                <option value="Gilgit">Gilgit</option>
+                <option value="Turkey">Turkey</option>
+            </select>
+            <br><br>
+            <label>Arrival Date*:</label>
+            <input type="date" placeholder="m/d/y" name="date">
+            <br><br>
+            <label>No. of persons*:</label>
+            <input type="number" placeholder="Number of Persons" name="noOfPersons">
+            <br><br>
+            <label>What would you want to avail*:</label>
+            
+            <label>Boarding</label><input type="checkbox" value="Boarding" >
+            
+            <label>Fooding</label><input type="checkbox" value="Fooding">
+            
+            <label>Sight Seeing</label><input type="checkbox" value="Sight Seeing">
+            <br><br>
+            <label>Discount Coupon Code:</label>
+            <input type="number" placeholder="Discount Coupon Code" name="couponCode">
+            <br><br>
+            <label>Terms and Conditions*:</label>
+            <label>I agree</label><input type="radio" value="I agree" name="Iagree">
+            <label>I disAgree</label><input type="radio" value="I disagree" name="Idisagree">
+            <br><br>
+            <input type="button" value="Complete reservation">
+            <br>
+        </form>
+    </center>
+</body>
+</html>

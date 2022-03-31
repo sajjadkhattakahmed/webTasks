@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        a {
+            text-decoration: none;
+            color: wheat;
+        }
+        li{
+            margin: 15px;
+        }
+        #nav{
+            display: flex;
+            flex-wrap: wrap;
+            color: white;
+            background-color: #333;
+            padding: 5px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+        #nav p{
+            padding: 15px;
+        }
+        *{
+            margin: 0px;
+        }
+        body{
+            margin-top: 150px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        img{
+            margin: 20px;
+            width: 300px;
+            height: 250px;
+        }
+        footer{
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            justify-content: center;
+            margin-top: 50px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header id="nav">
+        <p>TRAVEL AGENCY</p>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a></li>
+            <li><a href="">Booking</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </header>
+    <center>
+        <strong>TRAVEL GALLERY</strong><br><i>Where you join the World</i>
+    </center>
+    <br><br>
+    <hr>
+        <div class="container">
+           <img class="item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAiimcJmSFxverrOfkBfyXSRz_Kpm-3umeQA&usqp=CAU" alt="image 1">
+           <img class="item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIV8xExe2CcDYat_6owBDLBqv_-Z6X4ISz0Q&usqp=CAU" alt="image2">
+           <img class="item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQkGnqAi9c3l6Y6EdBUQsLPcVZImq2sxapg&usqp=CAU" alt="image3">
+           <img class="item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1FCLGdQNklVQGcE_cgUKKdr9b31tP456yQw&usqp=CAU" alt="image4"> 
+           <img class="item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1hVxrtb2rkzb4_vrWiTP-gmPyQEAyB-gzTA&usqp=CAU" alt="image5">
+           <img class="item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0khKkb-EiuEZx5bJMEEN3-R_XCgcgNrfVSg&usqp=CAU" alt="image6">     
+        </div>
+        
+        <footer>
+            <hr>
+            <br>
+            <center><strong>TRAVEL AGENCY LIMITED</strong></center>
+            <br>
+            <hr>
+        </footer>
+</body>
+</html>

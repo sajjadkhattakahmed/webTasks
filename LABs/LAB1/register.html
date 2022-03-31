@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    
+</head>
+<body>
+    <header id="nav">
+        <p>TRAVEL AGENCY</p>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </header>
+    <center>
+        <h2>Sign Up</h2>
+        <br>
+        <h4>* means mandatory</h4>
+        <form>
+            <label>Full name*:</label>
+            <input type="text" placeholder="Full Name" name="name">
+            <br><br>
+            <label>Email Address*:</label>
+            <input type="email" placeholder="Email Address" name="email">
+            <br><br>
+            <label>Country*:</label>
+            <select name="country">
+                <option value="PK">PK</option>
+                <option value="SA">SA</option>
+            </select>
+            <br><br>
+            <label>Gender*:</label>
+            <label>Male</label><input type="radio" value="male" name="gender">
+            <label>FeMale</label><input type="radio" value="female" name="gender">
+            <br><br>
+            <label>Date of Birth*:</label>
+            <input type="date" placeholder="m/d/y" name="date">
+            <br><br>
+            <label>Terms and Conditions*:</label>
+            <label>I agree</label><input type="radio" value="I agree" name="Iagree">
+            <label>I disAgree</label><input type="radio" value="I disagree" name="Idisagree">
+            <br><br>
+            <input type="button" value="Sign Up">
+            <br>
+        </form>
+    </center>
+</body>
+</html>
