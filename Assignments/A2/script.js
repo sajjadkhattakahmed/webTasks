@@ -1,7 +1,18 @@
 var destList = document.getElementById('destList');
+var title = document.getElementById('Title');
+var description = document.getElementById('Description');
+var url = document.getElementById('url');
 
-function addDest() {
+function addDest(){
+    if(title.value.length > 0 && description.value.length && url.value.length){
+        addDestCard();
+    }
+    else{
+        alert('Input all values.');
+    }
+}
 
+function addDestCard() {
     var divCol = document.createElement("div");
     divCol.classList.add("col-sm-6");
     divCol.classList.add("col-md-4");
@@ -15,7 +26,7 @@ function addDest() {
     divCard.classList.add("text-white");
 
     var divImg = document.createElement("img");
-    divImg.src="https://cdn.theculturetrip.com/wp-content/uploads/2018/07/shutterstock_697606678.jpg";
+    divImg.src=url.value;
     divImg.classList.add("card-img-top");
 
     divCard.appendChild(divImg);
@@ -26,7 +37,7 @@ function addDest() {
     var divCardBodyP = document.createElement("p");
     divCardBodyP.classList.add("card-text");
 
-    divCardBodyP.appendChild(document.createTextNode('Pakistan: Land of Pure. Attracts many.'));
+    divCardBodyP.appendChild(document.createTextNode(title.value+': '+description.value));
 
     divCardBody.appendChild(divCardBodyP);
 
@@ -36,5 +47,9 @@ function addDest() {
        
     divCol.appendChild(divCard);
     destList.appendChild(divCol);
+
+    title.value = '';
+    description.value = '';
+    url.value = '';
 
 }
